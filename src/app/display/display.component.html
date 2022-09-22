@@ -1,0 +1,11 @@
+<button type="submit" (click)="getAll()" >Show Data</button>
+<table border =1>
+
+    <tbody>
+        <tr *ngFor="let post of posts">
+           <td>{{post.pid}}</td>
+          <td>{{post.title}}</td>
+          <td>{{post.author}}</td>
+          <td>{{post.description}}</td>
+        </tr>
+</table>

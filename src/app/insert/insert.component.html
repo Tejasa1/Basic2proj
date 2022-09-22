@@ -1,0 +1,119 @@
+
+<div class="register-form">
+
+
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+
+        <div class="form-group">
+            <label>pid</label>
+            <input  type="text" 
+                    [(ngModel)]="cpid"
+                    formControlName="pid"
+                    [ngClass]="{ 'is-invalid': submitted && f['pid'].errors }"
+            />
+            <div *ngIf="submitted && f['pid'].errors" class="invalid-feedback">
+            <div *ngIf="f['pid'].errors['required']">Fullname is required</div>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label>title</label>
+            <input  type="text" 
+                    [(ngModel)]="ctitle"
+                    formControlName="title"
+                    [ngClass]="{ 'is-invalid': submitted && f['title'].errors }"
+            />
+            <div *ngIf="submitted && f['title'].errors" class="invalid-feedback">
+            <div *ngIf="f['title'].errors['required']">Fullname is required</div>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label>author</label>
+            <input  type="text" 
+                    [(ngModel)]="cauthor"
+                    formControlName="author"
+                    [ngClass]="{ 'is-invalid': submitted && f['author'].errors }"
+            />
+            <div *ngIf="submitted && f['author'].errors" class="invalid-feedback">
+            <div *ngIf="f['author'].errors['required']">Fullname is required</div>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label>description</label>
+            <input  type="text" 
+                    [(ngModel)]="cdescription"
+                    formControlName="description"
+                    [ngClass]="{ 'is-invalid': submitted && f['description'].errors }"
+            />
+            <div *ngIf="submitted && f['description'].errors" class="invalid-feedback">
+            <div *ngIf="f['description'].errors['required']">Fullname is required</div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <button type="submit"  class="btn btn-primary">Register</button>
+          </div>
+
+    </form>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+<table border="1">
+    <tr>
+        <td>Enter Post id</td>
+        <td><input  type="text" 
+                    [(ngModel)]="cpid"
+                    formControlName="pid"
+                    [ngClass]="{ 'is-invalid': submitted && f['fullname'].errors }"
+            />
+        </td>
+    </tr>
+    <div *ngIf="submitted && f['pid'].errors" class="invalid-feedback">
+        <div *ngIf="f['pid'].errors['required']">Fullname is required</div>
+    <tr>
+        <td>Enter Post Title</td>
+        <td><input type="text" [(ngModel)]="ctitle"></td>
+    </tr>
+    <tr>
+        <td>Enter Post Author</td>
+        <td><input type="text" [(ngModel)]="cauthor"></td>
+    </tr>
+    <tr>
+        <td>Enter Post description</td>
+        <td><input type="text" [(ngModel)]="cdescription"></td>
+    </tr>
+    </table>
+    <button type="submit" (click)="insertData()" >Insert Data </button>
+</form>
+</div> -->
