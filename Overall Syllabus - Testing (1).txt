@@ -1,0 +1,548 @@
+>What is Testing
+
+Software testing is a process of Verifying or Evaluating that a software Product or Application
+Does what it is supposed to do
+
+To validate a functional behaviour of a business
+
+Finding out how well SOmething Works
+
+
+>why Testing
+
+-To Prevent the bugs
+-Reducing Developement Costs
+-Improving the Performance
+-How far meet the requirements
+-To Measure the Quality
+-Missing Requirements
+-To Identify the gaps
+
+>Software Developement Lifecycle
+
+1.Requirement Analysis
+2.Defining the Software
+3.Designing the Software
+4.Developing the Project
+5.Testing
+6.Deployement
+7.Maintainance
+
+>Software Testing Cycle
+
+1.Requirement Analysis
+2.Test Planning
+3.Test case Developement
+4.Test Environment Setup
+5.Test Execution
+6.Test Closure
+
+Lower Environment
+
+Higher Environment
+
+DEV-V12.2.23.0
+DEV Verify
+UAT
+UAT staging
+Preprod
+Production
+
+
+>Verification 
+
+    -It is a Process of checking the Docs,design,Code and the Program in order to check whether the 
+software has been built according to the rEquirements or not
+
+>Validation
+
+    -A dynamic mechanism of testing and validating if the Software Product actually meets teh exact needs of the Customer or not
+
+
+>Difference between the Verification and Validation
+
+
+Verification
+
+1.The verifying Process includesncehcking the Docs,design code,Program
+2.It does not involve executing teh code
+3.Verification uses methods,walkthroughs,reviews
+4.it finds bugs early in the Developement cycle
+5.Target is Application and Software architecture,Complete design,Database design
+
+Validation
+
+1.it is a dynamic mechanism of testing and validating teh actual Product
+2.it involves executing the code
+3.it checks whether teh s/w meets the Expectations 
+4.Target is actual Product
+5.It will uses methods like Black box, White box testing , non-functional testing techniques
+
+
+How to create Test case
+
+
+1.Project name
+2.Module Name
+3.Created by
+4.Created date
+5.Reviewed by
+6.Reviewed Date
+7.Test Scenario ID
+8.Test Scenario Description
+9.Test Case ID
+10.Test case Description
+11.Test Steps
+12.Precondition
+13.Post Condition
+14.Test data
+15.Expected Result
+16.Actual Result
+17.Status
+18.Executed by
+19.executed Date
+20.comment
+
+
+Test Planning
+Test Scenario
+Test case 
+Test steps
+
+
+
+----------------------------------------
+Static Testing
+          -It is a type of software testing in which software Applicationis tested without code Execution.
+        
+Examples of Work Documents
+
+1.Requirement Specifications
+2.Design Document
+3.Source code
+4.Test plans
+5.Test Cases
+6.Test Scripts
+7.Help or user Document
+8.Web Page Content
+
+Dynamic Testing
+         -It checks for Functional Behaviour of software system,Memory/CPU usage and Overall Performance of the System with Execution of Code
+
+
+Difference between static and Dynamic Testing
+
+Static Testing Techniques
+
+1.Informal Reviews
+2.Technical reviews
+3.Walkthrogh
+4.Inspection
+5.Static Code Review
+
+
+Dynamic Testing Techniques
+
+1.Unit Testing
+2.Integration Testing
+3.System Testing
+
+V-model
+
+V-model is an SDLC model Where Execution ofProcesses Happens in a DSequential Manner in a v-shape.
+
+V-model Verification Phases
+
+1.Business Requirement ANalysis
+2.System Design
+3.Architectural design
+4.Module Design
+5.Coding Phase
+
+Validation Phases
+
+1.Unit Testing
+2.Integration Testing
+3.System testing
+4.Acceptance Testing
+
+
+V-model Application
+
+-Requirements are well defined,Clearly Documented and fixed
+-Product definition is stable
+-Technology is not dynamic and well understood by the project team
+-There are no ambiguous or undefined requirements
+-The Project should be short
+
+Advantages
+
+Disadvantages
+
+Roles and Responsibilities of a software tester
+
+Testing Constraints
+          -S/W tetsing Constraints are the guidelines tha provide direction and define acceptab;e parameters for software testing activities.
+
+Examples of testing constraints include
+
+1.test scope
+2.test depth
+3.test effort
+4.testing techniques
+
+Time and cost,skill categeories
+
+The skill of human resources
+Project size
+Inadequate requirements
+software testability 
+time 
+cost
+test design
+
+
+Levels of Testing
+
+1.Unit Testing-checks if software components are fullfilling the functionalities or not 
+2.Integration Testing-checks the data flow from one module to other modules
+3.system Testing-evaluates both functional nd Non functional needs for the testing
+4.Acceptance Testing-checks the requirements of a specification or contract are met as per its delivery
+
+
+Test coverage Matrix
+           -It is Chceklist which ensures that the functionality of the given screen(Unit)
+is Checked in all possible combinations(positive negative) and which have been not covered in test cases 
+
+
+Requirement Tracebility matrix
+             -It serves in mapping the test case to the requirements.It serves as a checklist  wherein all the requirements 
+(of SRS) are listed and the test cases covering the corresponding requirements is listed against each requirement.
+
+
+
+-----------------------------------------------------------------------
+
+Bug Life Cycle
+
+1.New 
+2.Open
+3.Fixed
+4.Pending Request
+5.Retest
+6.Reopen
+7.Defeered
+8.Reject
+9.Duplicate
+10.Not a bug
+11.Closed
+
+Manditory Fields
+
+1.Project
+2.Module
+3.Build Version
+4.Bug ID
+5.Environment
+6.Description
+7.Application
+8.Priority
+9.Severity
+10.Reproduction steps
+11.tags
+12.Screenshot
+13.System info
+14.Actual Result
+15.Expected Result
+16.Comment
+17.Assignee
+18.Status
+
+Priority
+1.Low
+2.Medium
+3.High
+
+Severity
+
+1.Critical
+2.Major
+3.Moderate
+4.Minor
+5.Cosmetic
+
+
+Agile Methodology-Testing and Developement are concurent 
+
+Waterfall Methodology-Testing and Developement are not concurrent
+
+
+Difference Between Azile and Waterfall
+
+Facebook
+
+upload
+share
+SHaring a story
+
+
+Sprint - 3 weeks
+Iteration1
+
+>API -Application Program Interface
+
+HTTP Methods
+
+Create-POST
+Read-GET
+Update-PUT
+Delete-DEL
+
+
+API Format : /api/users(local host or website name)
+
+API Testing
+
+Types of API Testing
+1.Unit Testing
+2.Functional testing
+3.Load Testing
+4.Runtime Error Detection
+5.Security tetsing
+6.WEB UI Testing
+7.Interoperability testing
+
+Why to Test API's
+
+1.Test Quality
+2.Test Coverage
+3.Test Reuse
+
+Tools for API Testing
+
+1.Eclipse
+2.SOAP UI
+3.Runscope
+4.Parasoft
+5.IBM Rational
+6.HP Unified Functional Testing tool
+7.Microsoft Visual STudio
+8.Smarbear
+9.CTESK
+10.Curl
+
+Types of Testing 
+
+1.Regression Testing
+          -checking the Existing Functionlaity whaether any impact caused by the new Functionality which is been added
+2.Retest Testing
+          -It is a type of testing which verifies and validates the rectification of flawas and issues which caused s/w application to fail in a Previous test.
+3.Smoke Testing
+          -Build is fine or not. Functionality is working fine or not.
+4.Sanity Testing
+          -Ensuring that whether the fixation of Previously detected bugs and simultaneouslyto make sure any sort of minor or major changes or 
+modificatiuons introduced in the code or functionalities does not lead any new defect
+
+5.Adhoc Testing
+         -Exploring the Application(Without test case Execution)
+
+6. User Acceptance/Beta/Acceptance Testing
+         -This tetsing will be done in User Environment
+
+
+6.Alpha Testing
+7.back-end Testing
+8.Browser Compatibility Testing
+9.End-End Testing
+10.Alpha Testing
+11.Boundary Value Testing
+12.Comparision Testing
+13.System Testing
+14.Exploratory Testing
+15.White box testing
+16.Black box Testing
+17.Functional Testing
+18.Non-Functional
+
+
+Functional Testing
+
+1.Unit testing
+2.Integration Testing
+3.Regression
+4.Retest
+5.SMoke 
+6.Sanity
+7.Beta/Acceptance Testing
+
+
+Non-Functional Testing
+
+1.Performance Testing
+2.Load Testing
+3.Stress Testing
+4.Volume Testing
+
+
+HTTP Methods
+
+1.GET
+2.POST
+3.PUT
+4.PATCH
+5.HEAD
+6.DELETE
+7.OPTION
+
+
+HTTP CODES
+
+1xx-Informational
+100
+101
+102
+103
+2xx-Successful
+200
+201
+202
+203
+204
+205
+206
+207
+208
+3xx-Redirection
+300
+301
+302
+303
+304-Not Modified
+305
+306
+307
+308
+4xx-ClientError
+400
+401
+402
+403
+404
+408
+410
+5xx-Server error
+500
+501
+502
+503
+504
+505
+
+Quality Assurance
+Quality Control 
+
+Difference between the QA and QC
+
+Cost of Quality
+
+1.Prevention cost
+2.Detection Cost
+3.Internal Failure costs
+4.External failure Costs
+
+
+DEFECT
+BUG
+FAILURE
+
+Defect Mangaement Process
+
+1.To Prevent the defect
+2.DEtection at early stage
+3.Reduce the impact
+4.Resolving or fixing defects
+5.Improving Process and Performance of s/w
+
+
+1.SOAP-simple object access protocol
+2.UDDI-Universal Description,Discovery and Integration
+3.WSDL-Web Services Description Language
+4.REST-Representational state transfer
+5.HTTP-Hyper text transmission protocol
+6.AMF-Action message format
+
+Soap UI features
+
+Create test suite
+Create test case
+Craete test steps
+
+Soap UI can be used to both manual and Automatiuon 
+In SOap UI properties are available at test case,test suite,Project
+Hierarchy
+
+Project>Tets Suite>Test Case>Test Steps
+
+Automation Testing
+Why Automation
+
+Factors to select a Perticular Tool
+
+1.Environment Support
+2.Ease of use
+3.Testing of database
+4.Object Identification
+5.image Testing
+6.Error Recovery testing
+7.Object mapping
+8.Scripting language used
+9.Support for various types of test
+10.Easy to debug
+11.Extensive test reports and results
+12.Support for multiple testing frameworks
+
+
+Which is suitable
+Which is Not
+
+Automated Testing Process
+
+1.Test tool Selection
+2.Define scope of Automation
+3.Planning,Designing and Developement
+4.Test Execution
+5.Maintainance
+
+Automation testing tools
+1.Ranorex
+2.Kobiton
+3.Zaptest
+4.LAMDA test
+5.Parasoft
+6.AVO assure
+7.Keysight EggPlant
+8.Testrigor
+9.Subject7
+10.Selenium
+
+SAFAL
+     -"SAFAL" is in-house developed test automation solution,WHich Provides a cost Effective alternative test automation solution over commercial tool
+
+Selenium
+
+         -Selenium is an open source and a portable automated s/w testing tool for testing web Applications
+It has Capabilities to operate across different browsers and operating systems.Selenium is not just a single tool but a set of tools that helps testers to 
+automate Web-based aopplications more effieciently
+
+1.Selenium IDE-integrated developement environment
+2.Selenium RC-Remote control
+3.Selenium Webdriver
+4.Selenium Grid
+
+Advantages 
+
+
+
+
+
+
